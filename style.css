@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100&family=Open+Sans&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Poppins:wght@400;500;700&display=swap');
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #f7f7f2;
+}
+
+
+.navbar {
+    margin-top: -10px;
+}
+
+.container-fluid {
+    padding: 10px 40px;
+    background-color: #f7f7f2
+}
+
+.container-fluid a {
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.offcanvas {
+    background: linear-gradient(0deg, rgba(213, 209, 192, 1) 0%, rgba(214, 218, 168, 1) 100%);
+}
+
+.offcanvas-header h5 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.offcanvas-body a {
+    margin-bottom: 30px;
+}
+
+
+
+#title {
+    position: relative;
+    margin-bottom: 300px;
+
+}
+
+#title h1 {
+    position: absolute;
+    top: -70px;
+    left: 100px;
+    bottom: 50px;
+    color: darkslategrey;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 400px 590px;
+}
+
+
+
+.explore {
+    position: absolute;
+    top: 830px;
+    left: 850px;
+    background-color: #2C3333;
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 10px 60px;
+    border-radius: 17px;
+    transition: all 0.15s ease-in-out;
+
+}
+
+.explore:hover {
+    background-color: #f7f7f2;
+    color: black;
+    font-weight: bold;
+
+}
+
+.explore:active {
+    opacity: 0.8;
+}
+
+.carousel-inner {
+    height: 900px;
+}
+
+.carousel {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+.carousel-item img {
+    height: 900px;
+    object-fit: cover;
+
+}
+
+.nav-link {
+    color: black;
+    transition: all .35s ease-in-out;
+}
+
+.nav-link.active:hover {
+    color: #2E4F4F;
+    background-color: blanchedalmond;
+    padding: 3px 40px;
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    color: #2E4F4F;
+    background-color: blanchedalmond;
+    padding: 3px 40px;
+    border-radius: 10px;
+}
+
+
+#about .card {
+    border: none;
+    margin: 50px 660px;
+
+}
+
+.container {
+    max-width: 100%;
+    margin-top: 800px;
+}
+
+.container h1 {
+    margin-top: 100px;
+    margin-bottom: -750px;
+}
+
+footer {
+    background: linear-gradient(0deg, rgba(213, 209, 192, 1) 0%, rgba(214, 218, 168, 1) 100%);
+}
+
+@media (min-width:425px) {
+
+
+
+    #about p {
+        width: 10rem;
+        top: -15px;
+        left: -400px;
+        font-size: 20px;
+    }
+
+    .carousel-item {
+        height: 400px;
+        object-fit: cover;
+    }
+
+
+}
