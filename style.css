@@ -73,32 +73,44 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #FFF56D;
     text-align: center;
-    margin-top: -50px;
-    font-size: 20px;
+    margin-top: -20px;
+    font-size: 130px;
 }
 
-.landing-page .explore-btn {
+.landing-page .slogan h1 {
+    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: -100px;
+}
+
+
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-top: -60px;
-    font-size: 20px;
+    font-size: 10px;
 }
 
-.explore-btn .explore {
+.landing-page .slogan a {
     text-decoration: none;
+    font-size: 20px;
     text-align: center;
     border: 1px solid #FFE162;
     border-radius: 2px;
     padding: 3px 18px;
-    font-weight: 500;
     color: #FFD36E;
-    transition: all .25s ease-in-out;
     cursor: pointer;
+    transition: background-color .15s color .15s;
+
 }
 
-.explore-btn .explore:hover {
+
+.landing-page .explore-btn a:hover {
     background-color: white;
     color: black;
 }
+
 
 
 video {
@@ -149,8 +161,13 @@ svg {
     margin-top: 100px;
 }
 
+
 .about-card {
     margin-top: -90px;
+}
+
+.about-card .img-fluid {
+    width: 700px;
 }
 
 .card-text {
@@ -161,18 +178,24 @@ svg {
     font-family: 'Poppins', sans-serif;
 }
 
+
+
+
+
+
+
+
 @media(min-width:768px) {
 
 
     .slogan h1 {
-        margin-top: -10px;
+        margin-top: -300px;
         margin-left: 35px;
     }
 
     .landing-page .explore-btn {
         text-align: center;
         margin-top: -150px;
-        margin-bottom: 180px;
         font-size: 20px;
     }
 
@@ -206,37 +229,38 @@ svg {
     }
 
     .card-paragraph {
-        width: 500px;
+        width: 700px;
         margin-left: 20px;
     }
 
 }
 
+
 @media(min-width:1440px) {
 
     .navbar-brand {
         font-size: 40px;
-        padding-top: 30px;
+        padding-top: 20px;
         padding-left: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
 
     .navbar-toggler {
-        font-size: 40px;
+        font-size: 30px;
         padding-right: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 0px;
     }
 
     .slogan h1 {
         font-size: 60px;
-        margin-top: -450px;
-        margin-left: 100px;
+        margin-top: -650px;
+        margin-left: 300px;
 
     }
 
     .landing-page .explore-btn {
         text-align: center;
-        margin-top: -450px;
+        margin-top: -550px;
         margin-bottom: 500px;
         font-size: 30px;
     }
@@ -254,9 +278,15 @@ svg {
         font-size: 20px;
     }
 
+    #work .col {
+        height: 950px;
+        padding-left: 150px;
+
+    }
 
     .card {
         width: 700px;
+        text-align: center;
     }
 
     .card-img-top {
@@ -270,4 +300,25 @@ svg {
     .card-text {
         font-size: 20px;
     }
+
+    #about .card {
+        height: 500px;
+    }
+
+    .img-fluid {
+        margin-left: 600px;
+        height: 350px;
+        width: 500px;
+        object-fit: cover;
+    }
+
+
+    .card-paragraph {
+        margin-left: 500px;
+    }
+
+    .card-paragraph p {
+        margin-left: 120px;
+    }
+
 }
